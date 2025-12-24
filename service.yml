@@ -11,4 +11,5 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 3000
+       nodePort: 30070
       # Optional, or let Kubernetes auto-assign
